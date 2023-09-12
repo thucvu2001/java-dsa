@@ -1,4 +1,4 @@
-package p1_lythuyetso_tohop;
+package p1_LyThuyetSo_ToHop;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ public class Bai2_SangSoNguyenTo {
         prime[0] = false;
         prime[1] = false;
         for (int i = 2; i < Math.sqrt(10000000); i++) {
-            if (prime[i] == true) {
+            if (prime[i]) {
                 for (int j = i * i; j < 10000000; j += i) {
                     prime[j] = false;
                 }
@@ -27,7 +27,7 @@ public class Bai2_SangSoNguyenTo {
         int t = sc.nextInt();
         while (t-- > 0) {
             int n = sc.nextInt();
-            if (prime[n] == true) {
+            if (prime[n]) {
                 System.out.println("YES");
             } else {
                 System.out.println("NO");

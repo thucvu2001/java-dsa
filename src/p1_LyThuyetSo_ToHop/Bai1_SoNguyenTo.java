@@ -1,4 +1,4 @@
-package p1_lythuyetso_tohop;
+package p1_LyThuyetSo_ToHop;
 
 import java.util.Scanner;
 
